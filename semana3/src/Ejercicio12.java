@@ -5,8 +5,8 @@ public class Ejercicio12 {
 
     public static void main(String[] args) {
 
-//12 Escribe un programa que calcule el perímetro de un rectángulo utilizando la fórmula:
-//perímetro = 2 * (longitud + anchura). Pide al usuario que ingrese la longitud y la anchura del rectángulo.
+        //12 Escribe un programa que calcule el perímetro de un rectángulo utilizando la fórmula:
+        //perímetro = 2 * (longitud + anchura). Pide al usuario que ingrese la longitud y la anchura del rectángulo.
 
         double lngtd, anchura;
 

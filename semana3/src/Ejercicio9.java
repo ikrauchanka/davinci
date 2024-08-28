@@ -11,7 +11,7 @@ public class Ejercicio9 {
 
         int cantidadPasajesTurista, candidadPasajesPrimera;
         double recaudacionTotal;
-        double vueloPrecioTurista = 8800.00;
+        final double vueloPrecioTurista = 8800.00;
         double vueloPrecioPrimera = vueloPrecioTurista + vueloPrecioTurista * 0.3;
 
         Scanner lector = new Scanner(System.in);

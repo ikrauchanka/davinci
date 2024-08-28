@@ -7,10 +7,11 @@ public class Ejercicio8 {
 // que obtuvo un incremento del 8% sobre su salario actual y un descuento del 2,5 %
 // por servicios, informando los resultados con el formato que se especifica a continuación:
 
-        String nombre = "Sergio Gonzalez";
-        String area = "Programador";
+        final String nombre = "Sergio Gonzalez";
+        final String area = "Programador";
+        final double salarioActual =  600000.00;
         double salarioNuevo;
-        double salarioActual =  600000.00;
+
 
         salarioNuevo = salarioActual + salarioActual * 0.085;
         System.out.println("Nombre Empleado: " + nombre);

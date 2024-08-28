@@ -5,8 +5,8 @@ public class Ejercicio13 {
 
     public static void main(String[] args) {
 
-//13 Escribe un programa que calcule el área y el perímetro de un círculo utilizando las fórmulas:
-//	área = ? * radio^2 y perímetro = 2 * ? * radio. Pide al usuario que ingrese el radio del círculo.
+        //13 Escribe un programa que calcule el área y el perímetro de un círculo utilizando las fórmulas:
+        //	área = ? * radio^2 y perímetro = 2 * ? * radio. Pide al usuario que ingrese el radio del círculo.
 
         double radio;
 
