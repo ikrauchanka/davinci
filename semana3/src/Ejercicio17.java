@@ -9,29 +9,6 @@ public class Ejercicio17 {
     //el costo por litro de combustible y el rendimiento del auto en kilómetros por litro.
     //Pide al usuario que ingrese estos datos.
 
-//Algoritmo ej17
-//	Definir kilometros  Como Real
-//	Definir costoPorLitro Como Real
-//	Definir rendimiento Como Real
-//	Definir litrosNecesarios Como Real
-//	Definir total Como Real
-//
-//	Escribir "Ingrese kilometros recorridos: "
-//	Leer kilometros
-//
-//	Escribir "Ingrese el costo por litro de combustible: "
-//	Leer costoPorLitro
-//
-//	Escribir "Ingrese el rendimiento del auto en kilometros por litro: "
-//	Leer rendimiento
-//
-//	litrosNecesarios = kilometros / rendimiento
-//
-//	total = litrosNecesarios * costoPorLitro
-//
-//	Escribir "Total del viaje es: $", total
-//FinAlgoritmo
-
         double kilometros, costoPorLitro,rendimiento, litrosNecesarios, total ;
 
         Scanner lector = new Scanner(System.in);
