@@ -10,8 +10,7 @@ public class Ejercicio4 {
         //el valor del salario semanal, sabiendo que trabaja todos los días hábiles
         //y la mitad de las horas del día hábil los sábados. (Todas las horas valen lo mismo.)
 
-        int horasPorDia;
-        float valorPorHora;
+        float horasPorDia, valorPorHora, total;
 
         Scanner lector = new Scanner(System.in);
 
@@ -19,9 +18,11 @@ public class Ejercicio4 {
         valorPorHora = lector.nextFloat();
 
         System.out.println("Cuantos horas por dia: ");
-        horasPorDia = lector.nextInt();
+        horasPorDia = lector.nextFloat();
 
-        System.out.println("El valor del salario: " + (valorPorHora * horasPorDia * 5 + valorPorHora * 4));
+        total = valorPorHora * horasPorDia * 5 + valorPorHora * (horasPorDia / 2);
+
+        System.out.println("El valor del salario: " + total);
 
     }
 }
