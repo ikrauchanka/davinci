@@ -12,7 +12,7 @@ public class Ejercicio10 {
 
         Scanner lector = new Scanner(System.in);
 
-        System.out.println("Ingrese un base:: ");
+        System.out.println("Ingrese un base: ");
         base = lector.nextDouble();
 
         System.out.println("Ingrese una altura: ");

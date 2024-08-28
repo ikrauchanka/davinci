@@ -14,7 +14,7 @@ public class Ejercicio6 {
 
         Scanner lector = new Scanner(System.in);
 
-        System.out.println("Total ventas por mes ?_");
+        System.out.println("Total ventas por mes ?: ");
         totalVentas = lector.nextFloat();
 
         System.out.println("Suma por el vendor: " + (totalVentas * 0.16 + 44000));

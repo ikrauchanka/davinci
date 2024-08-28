@@ -13,7 +13,7 @@ public class Ejercicio11 {
 
         Scanner lector = new Scanner(System.in);
 
-        System.out.println("Ingrese celcius:: ");
+        System.out.println("Ingrese celcius: ");
         celcius = lector.nextFloat();
 
         System.out.println("En  Fahrenheit: " + ((celcius * 9/5) + 32));
