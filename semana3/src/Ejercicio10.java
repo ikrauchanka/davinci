@@ -13,9 +13,19 @@ public class Ejercicio10 {
         Scanner lector = new Scanner(System.in);
 
         System.out.println("Ingrese un base: ");
+        while (!lector.hasNextDouble()) {
+            System.out.println("Invalid input. Please try again:");
+            lector.next(); // Consume the invalid input
+        }
+
         base = lector.nextDouble();
 
+
         System.out.println("Ingrese una altura: ");
+        while (!lector.hasNextDouble()) {
+            System.out.println("Invalid input. Please try again:");
+            lector.next(); // Consume the invalid input
+        }
         altura = lector.nextDouble();
 
         System.out.println("Recaudación total: " + (base * altura ) / 2);

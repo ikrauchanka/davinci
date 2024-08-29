@@ -13,6 +13,10 @@ public class Ejercicio13 {
         Scanner lector = new Scanner(System.in);
 
         System.out.println("Ingrese el radio del círculo: ");
+        while (!lector.hasNextDouble()) {
+            System.out.println("Invalid input...");
+            lector.next();
+        }
         radio = lector.nextDouble();
 
         System.out.println("El área es: " + (Math.PI * radio * radio));
