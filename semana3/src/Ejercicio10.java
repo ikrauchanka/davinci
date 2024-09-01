@@ -10,23 +10,24 @@ public class Ejercicio10 {
 
         double base, altura;
 
-        Scanner lector = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Ingrese un base: ");
-        while (!lector.hasNextDouble()) {
+
+        while (!input.hasNextDouble()) {
             System.out.println("Invalid input. Please try again:");
-            lector.next(); // Consume the invalid input
+            input.next(); // Consume the invalid input
         }
 
-        base = lector.nextDouble();
+        base = input.nextDouble();
 
 
         System.out.println("Ingrese una altura: ");
-        while (!lector.hasNextDouble()) {
+        while (!input.hasNextDouble()) {
             System.out.println("Invalid input. Please try again:");
-            lector.next(); // Consume the invalid input
+            input.next(); // Consume the invalid input
         }
-        altura = lector.nextDouble();
+        altura = input.nextDouble();
 
         System.out.println("Recaudación total: " + (base * altura ) / 2);
 

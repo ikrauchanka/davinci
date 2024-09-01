@@ -10,36 +10,36 @@ public class Ejercicio7 {
         //(indicando nombre y porcentaje). Solicitar la carga por teclado del nombre de cada socio, s
         //u capital aportado y a partir de esto calcular e informar lo requerido previamente.
 
-        float sumaPersonaUno, sumaPersonaDos, sumaPersonaTres, suma;
-        String nombrePersonaUno, nombrePersonaDos, nombrePersonaTres;
+        float aporte1, aporte2, aporte3, capitalTotal; // double es bueno también
+        String socio1, socio2, socio3;
 
         Scanner lector = new Scanner(System.in);
 
         System.out.println("Nombre Persona uno:");
-        nombrePersonaUno = lector.nextLine();
+        socio1 = lector.nextLine();
         System.out.println("Suma Persona uno:");
-        sumaPersonaUno = lector.nextFloat();
+        aporte1 = lector.nextFloat();
 
         lector.nextLine();
 
         System.out.println("Nombre Persona dos:");
-        nombrePersonaDos = lector.nextLine();
+        socio2 = lector.nextLine();
         System.out.println("Suma Persona dos:");
-        sumaPersonaDos = lector.nextFloat();
+        aporte2 = lector.nextFloat();
 
         lector.nextLine();
 
         System.out.println("Nombre Persona tres:");
-        nombrePersonaTres = lector.nextLine();
+        socio3 = lector.nextLine();
         System.out.println("Suma Persona tres:");
-        sumaPersonaTres = lector.nextFloat();
+        aporte3 = lector.nextFloat();
 
-        suma = sumaPersonaUno + sumaPersonaDos + sumaPersonaTres;
+        capitalTotal = aporte1 + aporte2 + aporte3;
 
-        System.out.println("Suma: " + suma);
-        System.out.println("Persona uno: " + nombrePersonaUno + " cons suma " + sumaPersonaUno + " y % " + (sumaPersonaUno * 100 / suma));
-        System.out.println("Persona dos: " + nombrePersonaDos + " cons suma " + sumaPersonaDos + " y % " + (sumaPersonaDos * 100 / suma));
-        System.out.println("Persona tres: " + nombrePersonaTres + " cons suma " + sumaPersonaTres + " y % " + (sumaPersonaTres * 100 / suma));
+        System.out.println("capitalTotal: " + capitalTotal);
+        System.out.println("Persona uno: " + socio1 + " cons suma " + aporte1 + " y % " + ((aporte1 * 100) / capitalTotal));
+        System.out.println("Persona dos: " + socio2 + " cons suma " + aporte2 + " y % " + ((aporte2 * 100) / capitalTotal));
+        System.out.println("Persona tres: " + socio3 + " cons suma " + aporte3 + " y % " + ((aporte3 * 100) / capitalTotal));
 
     }
 }
