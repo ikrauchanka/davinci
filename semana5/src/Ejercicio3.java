@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Ejercicio3 {
     public static void main(String[] args) {
     /* Crear un programa en Java que muestre en pantalla un mensaje de
